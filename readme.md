@@ -11,3 +11,8 @@
     ''' -- $ npm run dev
     
     
+** Install GUI in command prompt
+
+    ''' -- $ npm install dat.gui --save
+    
+** CSS link <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
