@@ -1,4 +1,4 @@
-# Three.js Starter
+# Three.js Starter with Vite
 
 ** Download and install Node.js from https://nodejs.org/
 
