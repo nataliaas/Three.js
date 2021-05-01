@@ -16,3 +16,6 @@
     ''' -- $ npm install dat.gui --save
     
 ** CSS link <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+![Alt Text](https://github.com/nataliaas/Three.js/blob/main/ThreeJs.gif)
