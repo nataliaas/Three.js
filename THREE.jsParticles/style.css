@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-space-mono {
+  font-family: 'Original Surfer',cursive;
+}
+
+.absolute {
+  color: rgb(240, 255, 23);
+}

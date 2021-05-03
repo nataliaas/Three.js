@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/102/three.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.5/dat.gui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <title>ThreeJS Starter</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/three@0.126.1/build/three.module.js">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+    integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/CSSRulePlugin.min.js"
+      integrity="sha512-0bzaetZStCnsUgbCtGVxftzF/L32PNOnrMlYLXwBOKl8cUjTSSDfJVyyJsNwGoI0iE0WUqni2eEfO35kJjFj5g=="
+      crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="app">
+  <div
+    class="absolute text-center"
+    style="top: 25%; left: 1%;"
+  >
+    <h1 class="font-space-mono uppercase tracking-wide" style="font-size: 4rem;">
+     <strong> kind of you <br> to look after <br> our little lost lamb.</strong>
+    </h1>
+  </div>
+</div>
+<script>
+
+    const content = CSSRulePlugin.getRule('.absolute:before')
+    const h1 = document.querySelector('h1')
+    const tl = gsap.timeline()
+
+   // tl.from(content, { delay: .10, duration: 4, cssRule: { scaleX: 0}})
+    tl.to(h1, { duration: 8, clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)'})
+</script>
+</body>
+</html>
