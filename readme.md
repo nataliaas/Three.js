@@ -20,4 +20,4 @@
 
 ![Alt Text](https://github.com/nataliaas/Three.js/blob/main/ThreeJs.gif)
 
-           ![Alt Text](https://github.com/nataliaas/Three.js/blob/main/ThreeJSParticle.gif)
+![Alt Text](https://github.com/nataliaas/Three.js/blob/main/ThreeJSParticle.gif)
